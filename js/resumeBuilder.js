@@ -102,7 +102,7 @@ bio.display = function () {
 
     $("#topContacts").append(formattedMobile).append(formattedEmail).append(formattedGithub).append(formattedLocation);
     //Let's Connect
-    $("#lets-connect").append(formattedMobile).append(formattedEmail).append(formattedGithub).append(formattedLocation);
+    $("#footerContacts").append(formattedMobile).append(formattedEmail).append(formattedGithub).append(formattedLocation);
 };
 
 //Work function
